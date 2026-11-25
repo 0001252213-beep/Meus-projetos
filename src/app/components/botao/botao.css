@@ -1,0 +1,11 @@
+import{component,input}from'@angular/core';
+@component({
+import:[],
+selector:'app-botao'
+styleUrl:'./botao.css'
+templateUrl:'.botao.html',
+})
+export class Botao{
+    @input() texto:string='clique aqui';
+    @Input()cor: string='#2563eb';
+}
