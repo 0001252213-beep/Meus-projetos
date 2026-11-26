@@ -1,4 +1,4 @@
-import{component,input}from'@angular/core';
+import{component input}from'@angular/core';
 @component({
 import:[],
 selector:'app-botao'
@@ -7,5 +7,5 @@ templateUrl:'.botao.html',
 })
 export class Botao{
     @input() texto:string='clique aqui';
-    @Input()cor: string='#2563eb';
+    @input()cor: string='#2563eb';
 }
